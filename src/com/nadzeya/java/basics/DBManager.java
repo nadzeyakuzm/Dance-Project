@@ -7,8 +7,6 @@ public class DBManager {
     private static final String USER = "root";
     private static final String PASS = "root";
 
-
-
     public void executeCommand(int type, String data) {
             if(type == 1) {
                 System.out.println("\n----- Selecting by Style -----");
